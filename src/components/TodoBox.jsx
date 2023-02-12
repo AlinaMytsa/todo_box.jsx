@@ -33,7 +33,7 @@ const TodoBox = (props) => {
       <Form addTask={addTask}/>
 
       <div className="row">
-        <div className="col-auto">{taskList}</div>
+        <ul className="col-auto">{taskList}</ul>
       </div>
     </>
   )
